@@ -35,10 +35,10 @@ export default class Filter {
     let beforeHeading = '';
     let count = 0;
     let firstFlg = true;
-    let indent = (options.indent) ? options.indent : true;
     const options = assign({}, this.config.toc);
     const headings = $('h1, h2, h3, h4, h5, h6');
     const headingFormat = {h1: 1, h2: 2, h3: 3, h4: 4, h5: 5, h6: 6};
+    let indent = (options.indent) ? options.indent : true;
 
     headings.each( function(hid, hd) {
       count++;
