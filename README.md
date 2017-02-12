@@ -5,6 +5,9 @@
 
 Added chapter format to [hexo-toc](https://github.com/bubkoo/hexo-toc).
 
+## Image
+<img width=500 src="https://raw.githubusercontent.com/shunitoh/hexo-toc-ext/images/hexo-toc-ext.png" />
+
 ## Install
 
 ```node
