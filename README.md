@@ -5,6 +5,14 @@
 
 Added chapter format to [hexo-toc](https://github.com/bubkoo/hexo-toc).
 
+## Image
+- notIndent: true  
+<img width=500 src="https://raw.githubusercontent.com/shunitoh/hexo-toc-ext/images/hexo-toc-ext-notIndent-true.png" />
+- notIndent: false  
+<img width=500 src="https://raw.githubusercontent.com/shunitoh/hexo-toc-ext/images/hexo-toc-ext-notIndent-false.png" />
+- firstHeaderTagSkip: true  
+<img width=500 src="https://raw.githubusercontent.com/shunitoh/hexo-toc-ext/images/hexo-toc-ext-firstHeaderTagSkip-true.png" />
+
 ## Install
 
 ```node
