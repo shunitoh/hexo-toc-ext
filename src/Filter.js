@@ -61,7 +61,7 @@ export default class Filter {
         firstFlg = false;
 
       // flat table of contents
-      } else if (! indent) {
+      } else if (!indent) {
         tocContent += tocEndTags.pop();
         tocContent += '<li>';
         tocEndTags.push('</li>');
