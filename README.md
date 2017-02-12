@@ -6,9 +6,9 @@
 Added chapter format to [hexo-toc](https://github.com/bubkoo/hexo-toc).
 
 ## Image
-- notIndent: true  
+- indent: false  
 <img width=500 src="https://raw.githubusercontent.com/shunitoh/hexo-toc-ext/images/hexo-toc-ext-indent-false.png" />
-- notIndent: false  
+- indent: true  
 <img width=500 src="https://raw.githubusercontent.com/shunitoh/hexo-toc-ext/images/hexo-toc-ext-indent-true.png" />
 - firstHeaderTagSkip: true  
 <img width=500 src="https://raw.githubusercontent.com/shunitoh/hexo-toc-ext/images/hexo-toc-ext-firstHeaderTagSkip-true.png" />
