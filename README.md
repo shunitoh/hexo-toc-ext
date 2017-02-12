@@ -21,13 +21,13 @@ toc:
   maxdepth: 3
   class: toc
   slugify: transliteration
-  notIndent: false // default(false)
+  notIndent: false # default(false)
   anchor:
     contents:
-      stylle: contents-header
+      style: contents-header
     heading:
       style: header-anchor
-      notIncludeHeading: false // default(false)
+      notIncludeHeading: false # default(false)
 ```
 
 - `maxdepth`: Use headings whose depth is at most maxdepth.
