@@ -3,7 +3,7 @@
 [![Package Quality](http://npm.packagequality.com/shield/hexo-toc-ext.svg)](http://packagequality.com/#?package=hexo-toc-ext)
 [![Build Status](https://travis-ci.org/shunitoh/hexo-toc-ext.svg?branch=master)](https://travis-ci.org/shunitoh/hexo-toc-ext)
 
-Added chapter format to hexo-toc.
+Added chapter format to [hexo-toc](https://github.com/bubkoo/hexo-toc).
 
 ## Install
 
@@ -25,7 +25,7 @@ toc:
   anchor:
     contents:
       stylle: contents-header
-    heading
+    heading:
       style: header-anchor
       notIncludeHeading: false // default(false)
 ```
@@ -34,9 +34,9 @@ toc:
 - `class`: The CSS Class for the toc. (*Default is `false`*)
 - `slugify`: Choose which slugify function you want to use. Currently support [uslug](https://github.com/jeremys/uslug) (*Default*) and [transliteration](https://github.com/andyhu/node-transliteration).
 - `anchor`: Whether should have an anchor for each headings. (*Default is `false`*)
-    - `contents`
+    - `contents`:
         - `style`: The CSS class for the anchor, (*Default is `contents-anchor`*);
-    - `heading`
+    - `heading`:
         - `style`: The CSS class for the anchor, (*Default is `header-anchor`*);
         - `notIncludeHeading`: Do not include header in link, (*Default is `false`*);
 
