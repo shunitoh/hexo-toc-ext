@@ -1,7 +1,7 @@
 # hexo-toc-ext
 [![npm:](https://img.shields.io/npm/v/hexo-toc-ext.svg?style=flat-square)](https://www.npmjs.com/packages/hexo-toc-ext)
 [![Package Quality](http://npm.packagequality.com/shield/hexo-toc-ext.svg)](http://packagequality.com/#?package=hexo-toc-ext)
-[![Build Status](https://secure.travis-ci.org/shunitoh/hexo-toc-ext.png?branch=master)](http://travis-ci.org/shunitoh/hexo-toc-ext)
+[![Build Status](https://travis-ci.org/shunitoh/hexo-toc-ext.svg?branch=master)](https://travis-ci.org/shunitoh/hexo-toc-ext)
 
 Added chapter format to hexo-toc.
 
