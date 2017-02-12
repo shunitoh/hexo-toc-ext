@@ -21,7 +21,7 @@ toc:
   maxdepth: 3
   class: toc
   slugify: transliteration
-  notIndent: false # default(false)
+  indent: true # default(true)
   anchor:
     contents:
       style: contents-header
