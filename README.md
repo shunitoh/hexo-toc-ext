@@ -7,9 +7,9 @@ Added chapter format to [hexo-toc](https://github.com/bubkoo/hexo-toc).
 
 ## Image
 - notIndent: true  
-<img width=500 src="https://raw.githubusercontent.com/shunitoh/hexo-toc-ext/images/hexo-toc-ext-notIndent-true.png" />
+<img width=500 src="https://raw.githubusercontent.com/shunitoh/hexo-toc-ext/images/hexo-toc-ext-indent-false.png" />
 - notIndent: false  
-<img width=500 src="https://raw.githubusercontent.com/shunitoh/hexo-toc-ext/images/hexo-toc-ext-notIndent-false.png" />
+<img width=500 src="https://raw.githubusercontent.com/shunitoh/hexo-toc-ext/images/hexo-toc-ext-indent-true.png" />
 - firstHeaderTagSkip: true  
 <img width=500 src="https://raw.githubusercontent.com/shunitoh/hexo-toc-ext/images/hexo-toc-ext-firstHeaderTagSkip-true.png" />
 
@@ -30,6 +30,7 @@ toc:
   class: toc
   slugify: transliteration
   indent: true # default(true)
+  firstHeaderTagSkip: false # default(false)
   anchor:
     contents:
       style: contents-header
@@ -41,6 +42,8 @@ toc:
 - `maxdepth`: Use headings whose depth is at most maxdepth.
 - `class`: The CSS Class for the toc. (*Default is `false`*)
 - `slugify`: Choose which slugify function you want to use. Currently support [uslug](https://github.com/jeremys/uslug) (*Default*) and [transliteration](https://github.com/andyhu/node-transliteration).
+- `indent`: add indent(*Default is `true`*)
+- `firstHeaderTagSkip`: delete first header(*Default is `false`*)
 - `anchor`: Whether should have an anchor for each headings. (*Default is `false`*)
     - `contents`:
         - `style`: The CSS class for the anchor, (*Default is `contents-anchor`*);
